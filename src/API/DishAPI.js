@@ -699,7 +699,7 @@ const DishAPI = [
       data3: "Cheese Overload: Double cheese for the ultimate melt.",
       data4: "Burger Bliss: A treat that's indulgent and satisfying.",
     },
-    thumbnail: "double_bacon_cheeseburger_thumbnail.jpg",
+    thumbnail: "https://t4.ftcdn.net/jpg/06/31/65/35/360_F_631653509_VmkJ774Wi32C3mssfqTgHN7mh8X0gu6K.jpg",
     image: {
       img1: "double_bacon_cheeseburger_img1.jpg",
       img2: "double_bacon_cheeseburger_img2.jpg",
@@ -722,7 +722,7 @@ const DishAPI = [
       data3: "Creamy Addition: Sour cream that balances the heat.",
       data4: "Fiesta of Flavors: A dish that's a party in your mouth.",
     },
-    thumbnail: "chili_cheese_fries_thumbnail.jpg",
+    thumbnail: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTk49Q9GscFr-SvviUX8p55e0pGZkRcVU4W0Q&usqp=CAU",
     image: {
       img1: "chili_cheese_fries_img1.jpg",
       img2: "chili_cheese_fries_img2.jpg",
@@ -745,7 +745,7 @@ const DishAPI = [
       data3: "Minty Freshness: A drink that's both calming and invigorating.",
       data4: "Perfect Pick-Me-Up: The ideal choice to quench your thirst.",
     },
-    thumbnail: "mint_mojito_thumbnail.jpg",
+    thumbnail: "https://c4.wallpaperflare.com/wallpaper/256/692/28/summer-drinks-mojito-green-lemon-ice-cup-water-splash-wallpaper-preview.jpg",
     image: {
       img1: "mint_mojito_img1.jpg",
       img2: "mint_mojito_img2.jpg",
@@ -768,7 +768,7 @@ const DishAPI = [
       data3: "Veggie Medley: Roasted veggies for a healthy balance.",
       data4: "Flavor Fusion: A dish that's both hearty and delightful.",
     },
-    thumbnail: "honey_mustard_chicken_thumbnail.jpg",
+    thumbnail: "https://media.istockphoto.com/id/953664964/photo/roasted-chicken-fillet-breast-with-lemon-tomato-rosemary-mustard-seeds-honey.jpg?s=612x612&w=0&k=20&c=hXWApkIkz5t76FlgHMYrK1qOmuFEe58UO6wiGCmwN9w=",
     image: {
       img1: "honey_mustard_chicken_img1.jpg",
       img2: "honey_mustard_chicken_img2.jpg",
@@ -793,7 +793,7 @@ const DishAPI = [
         "Simple Sophistication: A dessert that's elegant in its simplicity.",
       data4: "Melt-in-Your-Mouth: A slice of heaven for cheesecake lovers.",
     },
-    thumbnail: "classic_cheesecake_thumbnail.jpg",
+    thumbnail: "https://img.freepik.com/free-photo/classic-cheesecake-black-tea-armudu-glass_140725-3392.jpg",
     image: {
       img1: "classic_cheesecake_img1.jpg",
       img2: "classic_cheesecake_img2.jpg",
@@ -816,7 +816,7 @@ const DishAPI = [
       data3: "Herb Infusion: Fresh basil leaves for a fragrant kick.",
       data4: "Italian Essence: A taste of Italy in every bite.",
     },
-    thumbnail: "margherita_pizza_thumbnail.jpg",
+    thumbnail: "https://images.unsplash.com/photo-1574071318508-1cdbab80d002?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8cGl6emElMjBtYXJnaGVyaXRhfGVufDB8fDB8fHww&w=1000&q=80",
     image: {
       img1: "margherita_pizza_img1.jpg",
       img2: "margherita_pizza_img2.jpg",
@@ -841,7 +841,7 @@ const DishAPI = [
       data4:
         "Healthy Indulgence: A salad that's both nutritious and delicious.",
     },
-    thumbnail: "greek_salad_thumbnail.jpg",
+    thumbnail: "https://img.freepik.com/premium-photo/plate-greek-salad-wooden-table_318269-50.jpg",
     image: {
       img1: "greek_salad_img1.jpg",
       img2: "greek_salad_img2.jpg",
@@ -865,7 +865,7 @@ const DishAPI = [
       data3: "Classic Combo: A sandwich that's both familiar and gourmet.",
       data4: "Satisfying Stack: Layers of goodness in every mouthful.",
     },
-    thumbnail: "turkey_club_sandwich_thumbnail.jpg",
+    thumbnail: "https://c4.wallpaperflare.com/wallpaper/939/473/105/sandwich-4k-download-for-computer-wallpaper-thumb.jpg",
     image: {
       img1: "turkey_club_sandwich_img1.jpg",
       img2: "turkey_club_sandwich_img2.jpg",
@@ -890,7 +890,7 @@ const DishAPI = [
       data4:
         "Healthy Indulgence: A wrap that's light, flavorful, and satisfying.",
     },
-    thumbnail: "grilled_veggie_wrap_thumbnail.jpg",
+    thumbnail: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTbooSQ1G5PqAKxs3g8ksOXxrnNW_jMr0TnePV4P-OX_nxTFP6gfB_uGrFVK5iS2COLryc&usqp=CAU",
     image: {
       img1: "grilled_veggie_wrap_img1.jpg",
       img2: "grilled_veggie_wrap_img2.jpg",
@@ -911,7 +911,7 @@ const DishAPI = [
       data3: "Rice Harmony: A side of rice and beans that's comforting.",
       data4: "Tropical Adventure: A taste of Jamaica on your plate.",
     },
-    thumbnail: "jerk_chicken_thumbnail.jpg",
+    thumbnail: "https://media.istockphoto.com/id/538643574/photo/spicy-grilled-jerk-chicken.jpg?s=612x612&w=0&k=20&c=A5bzNuietYkn1suqd83hm4YVNRdl5xLWYNmQ4sv_5x0=",
     image: {
       img1: "jerk_chicken_img1.jpg",
       img2: "jerk_chicken_img2.jpg",
@@ -934,7 +934,7 @@ const DishAPI = [
       data3: "Burger Bliss: A classic combo of meat, mushrooms, and cheese.",
       data4: "Satisfying Indulgence: A burger that's pure comfort food.",
     },
-    thumbnail: "mushroom_swiss_burger_thumbnail.jpg",
+    thumbnail: "https://b12burger.ca/wp-content/uploads/2022/09/2-SUISSE.jpg",
     image: {
       img1: "mushroom_swiss_burger_img1.jpg",
       img2: "mushroom_swiss_burger_img2.jpg",
@@ -957,7 +957,7 @@ const DishAPI = [
       data3: "Fiery Kick: Jalapeños for a spicy punch.",
       data4: "Fiesta in Every Bite: A dish that's a party for your taste buds.",
     },
-    thumbnail: "loaded_nacho_fries_thumbnail.jpg",
+    thumbnail: "https://wallpaperaccess.com/full/7132916.jpg",
     image: {
       img1: "loaded_nacho_fries_img1.jpg",
       img2: "loaded_nacho_fries_img2.jpg",
@@ -980,7 +980,7 @@ const DishAPI = [
       data3: "Sweet Escape: A smoothie that's both refreshing and nourishing.",
       data4: "Nature's Delight: Fresh fruits for a burst of natural flavor.",
     },
-    thumbnail: "tropical_smoothie_thumbnail.jpg",
+    thumbnail: "https://c0.wallpaperflare.com/preview/979/85/235/food-food-and-drink-food-styling-food-photography.jpg",
     image: {
       img1: "tropical_smoothie_img1.jpg",
       img2: "tropical_smoothie_img2.jpg",
@@ -1004,7 +1004,7 @@ const DishAPI = [
       data4:
         "Flavor Explosion: A dish that's a fireworks show for your taste buds.",
     },
-    thumbnail: "images/bbq_glazed_chicken_thumbnail.jpg",
+    thumbnail: "https://img.freepik.com/premium-photo/photo-grilled-chicken-wings-flaming-grill-with-grilled-vegetables-barbecue-sauce-with-pepp_131346-307.jpg",
     image: {
       img1: "bbq_glazed_chicken_img1.jpg",
       img2: "bbq_glazed_chicken_img2.jpg",
@@ -1028,7 +1028,7 @@ const DishAPI = [
         "Cold Harmony: Vanilla ice cream that complements the warmth of the cake.",
       data4: "Dessert Delight: A treat that's both luxurious and comforting.",
     },
-    thumbnail: "images/chocolate_lava_cake_thumbnail.jpg",
+    thumbnail: "https://media.istockphoto.com/id/541267186/photo/chocolate-fondant-with-strawberries-and-powdered-sugar.webp?b=1&s=170667a&w=0&k=20&c=FRPFrV7sXl2SCqW_Oh3iIiagPBXTCGukqZ11I6hZXAM=",
     image: {
       img1: "chocolate_lava_cake_img1.jpg",
       img2: "chocolate_lava_cake_img2.jpg",
@@ -1051,7 +1051,7 @@ const DishAPI = [
       data3: "Cilantro Zing: Fresh cilantro that adds a burst of flavor.",
       data4: "Pizza Party: A pie that's a celebration of tastes.",
     },
-    thumbnail: "images/bbq_chicken_pizza_thumbnail.jpg",
+    thumbnail: "https://media.istockphoto.com/id/1287930611/photo/slice-of-pizza-with-chicken-and-barbeque-sauce-italian-pizza-on-dark-grey-black-slate.jpg?s=612x612&w=0&k=20&c=A7HvMZ7O3BFw8DCIAd8codKtqxWy_-r3MdDJtSfg9mo=",
     image: {
       img1: "bbq_chicken_pizza_img1.jpg",
       img2: "bbq_chicken_pizza_img2.jpg",
@@ -1074,7 +1074,7 @@ const DishAPI = [
       data3: "Cheesy Elegance: Shaved Parmesan for a rich finish.",
       data4: "Creamy Caesar: Dressing that ties the elements together.",
     },
-    thumbnail: "images/caesar_salad_thumbnail.jpg",
+    thumbnail: "https://media.istockphoto.com/id/1138387864/photo/caesar-salad-with-croutons-and-parmesan-cheese-on-dark-background-copy-space.jpg?s=612x612&w=0&k=20&c=ovKfnJsjW-lCvDLRcGZtfDHKnmgiJSE1YkksvxfSpzQ=",
     image: {
       img1: "images/caesar_salad_img1.jpg",
       img2: "images/caesar_salad_img2.jpg",
@@ -1097,7 +1097,7 @@ const DishAPI = [
       data3: "Tangy Twist: Italian dressing for a zesty kick.",
       data4: "Flavorful Adventure: A sandwich that's full of surprises.",
     },
-    thumbnail: "italian_sub_thumbnail.jpg",
+    thumbnail: "https://img.freepik.com/premium-photo/smoked-carpaccio-sandwich-with-arugula-tomato-gruiere-cheese-italian-baguette-wooden-board-dark-background-angle-view-with-mayonnaise-from-front_465253-611.jpg",
     image: {
       img1: "italian_sub_img1.jpg",
       img2: "italian_sub_img2.jpg",
@@ -1121,7 +1121,7 @@ const DishAPI = [
       data4:
         "Wrap It Up: A handheld meal that's both wholesome and convenient.",
     },
-    thumbnail: "chicken_caesar_wrap_thumbnail.jpg",
+    thumbnail: "https://media13.s-nbcnews.com/i/mpx/2704722219/2022_09/1662469631712_tdy_food_8a_chicken_caesar_wrap_220906_1920x1080-g8z3at.jpg",
     image: {
       img1: "chicken_caesar_wrap_img1.jpg",
       img2: "chicken_caesar_wrap_img2.jpg",
