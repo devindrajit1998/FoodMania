@@ -13,12 +13,12 @@ const DishAPI = [
         "Golden Goodness: Salted Fried Chicken, a crispy and savory treat.",
       data4: "Classic Comfort: Salted Fried Chicken, timeless and delicious.",
     },
-    thumbnail: "chicken_thumbnail.jpg",
+    thumbnail: "https://cdn.leonardo.ai/users/7b7a656f-66d8-473a-a98a-350631dc318a/generations/b8f9096d-af4e-4368-87fd-3186820c7e74/RPG_v5_Salted_Fried_Chicken_served_on_platereal_image_show_ful_3.jpg",
     image: {
-      img1: "chicken_img1.jpg",
-      img2: "chicken_img2.jpg",
-      img3: "chicken_img3.jpg",
-      img4: "chicken_img4.jpg",
+      img1: "https://cdn.leonardo.ai/users/7b7a656f-66d8-473a-a98a-350631dc318a/generations/b8f9096d-af4e-4368-87fd-3186820c7e74/RPG_v5_Salted_Fried_Chicken_served_on_platereal_image_show_ful_3.jpg",
+      img2: "https://cdn.leonardo.ai/users/7b7a656f-66d8-473a-a98a-350631dc318a/generations/b8f9096d-af4e-4368-87fd-3186820c7e74/RPG_v5_Salted_Fried_Chicken_served_on_platereal_image_show_ful_2.jpg",
+      img3: "https://cdn.leonardo.ai/users/7b7a656f-66d8-473a-a98a-350631dc318a/generations/b8f9096d-af4e-4368-87fd-3186820c7e74/RPG_v5_Salted_Fried_Chicken_served_on_platereal_image_show_ful_1.jpg?w=512",
+      img4: "https://cdn.leonardo.ai/users/7b7a656f-66d8-473a-a98a-350631dc318a/generations/b8f9096d-af4e-4368-87fd-3186820c7e74/RPG_v5_Salted_Fried_Chicken_served_on_platereal_image_show_ful_0.jpg?w=512",
     },
   },
   {
@@ -34,12 +34,12 @@ const DishAPI = [
       data3: "Fresh and Irresistible: The classic combination done right.",
       data4: "Savory Wonder: A burger that never goes out of style.",
     },
-    thumbnail: "burger_thumbnail.jpg",
+    thumbnail: "https://cdn.leonardo.ai/users/7b7a656f-66d8-473a-a98a-350631dc318a/generations/62cd1c9b-be09-4dc9-a0d8-35832508e31d/RPG_v5_Classic_Beef_Burger_served_on_platereal_image_show_full_3.jpg",
     image: {
-      img1: "burger_img1.jpg",
-      img2: "burger_img2.jpg",
-      img3: "burger_img3.jpg",
-      img4: "burger_img4.jpg",
+      img1: "https://cdn.leonardo.ai/users/7b7a656f-66d8-473a-a98a-350631dc318a/generations/62cd1c9b-be09-4dc9-a0d8-35832508e31d/RPG_v5_Classic_Beef_Burger_served_on_platereal_image_show_full_2.jpg",
+      img2: "https://cdn.leonardo.ai/users/7b7a656f-66d8-473a-a98a-350631dc318a/generations/62cd1c9b-be09-4dc9-a0d8-35832508e31d/RPG_v5_Classic_Beef_Burger_served_on_platereal_image_show_full_1.jpg?w=512",
+      img3: "https://cdn.leonardo.ai/users/7b7a656f-66d8-473a-a98a-350631dc318a/generations/62cd1c9b-be09-4dc9-a0d8-35832508e31d/RPG_v5_Classic_Beef_Burger_served_on_platereal_image_show_full_1.jpg?w=512",
+      img4: "https://cdn.leonardo.ai/users/7b7a656f-66d8-473a-a98a-350631dc318a/generations/62cd1c9b-be09-4dc9-a0d8-35832508e31d/RPG_v5_Classic_Beef_Burger_served_on_platereal_image_show_full_0.jpg?w=512",
     },
   },
   {
@@ -57,12 +57,12 @@ const DishAPI = [
       data4:
         "Seasoned to Please: Fries that are seasoned with care and perfection.",
     },
-    thumbnail: "fries_thumbnail.jpg",
+    thumbnail: "https://cdn.leonardo.ai/users/7b7a656f-66d8-473a-a98a-350631dc318a/generations/4be434a3-7483-4d8a-a3ef-a661a2ea0d0b/RPG_v5_Crispy_Potato_Fries_served_on_platereal_image_show_full_3.jpg",
     image: {
-      img1: "fries_img1.jpg",
-      img2: "fries_img2.jpg",
-      img3: "fries_img3.jpg",
-      img4: "fries_img4.jpg",
+      img1: "https://cdn.leonardo.ai/users/7b7a656f-66d8-473a-a98a-350631dc318a/generations/4be434a3-7483-4d8a-a3ef-a661a2ea0d0b/RPG_v5_Crispy_Potato_Fries_served_on_platereal_image_show_full_3.jpg",
+      img2: "https://cdn.leonardo.ai/users/7b7a656f-66d8-473a-a98a-350631dc318a/generations/4be434a3-7483-4d8a-a3ef-a661a2ea0d0b/RPG_v5_Crispy_Potato_Fries_served_on_platereal_image_show_full_2.jpg",
+      img3: "https://cdn.leonardo.ai/users/7b7a656f-66d8-473a-a98a-350631dc318a/generations/4be434a3-7483-4d8a-a3ef-a661a2ea0d0b/RPG_v5_Crispy_Potato_Fries_served_on_platereal_image_show_full_1.jpg",
+      img4: "https://cdn.leonardo.ai/users/7b7a656f-66d8-473a-a98a-350631dc318a/generations/4be434a3-7483-4d8a-a3ef-a661a2ea0d0b/RPG_v5_Crispy_Potato_Fries_served_on_platereal_image_show_full_0.jpg?w=512",
     },
   },
   {
@@ -78,12 +78,12 @@ const DishAPI = [
       data3: "Natural Goodness: Made from real lemons, no artificial flavors.",
       data4: "Sunny Delight: Enjoy the brightness of lemons in liquid form.",
     },
-    thumbnail: "drinks_thumbnail.jpg",
+    thumbnail: "https://cdn.leonardo.ai/users/7b7a656f-66d8-473a-a98a-350631dc318a/generations/c4a5dbac-9b51-467d-89fb-99db71495bb3/RPG_v5_Refreshing_Lemonade_Made_with_freshly_squeezed_lemons_a_1.jpg",
     image: {
-      img1: "drinks_img1.jpg",
-      img2: "drinks_img2.jpg",
-      img3: "drinks_img3.jpg",
-      img4: "drinks_img4.jpg",
+      img1: "https://cdn.leonardo.ai/users/7b7a656f-66d8-473a-a98a-350631dc318a/generations/c4a5dbac-9b51-467d-89fb-99db71495bb3/RPG_v5_Refreshing_Lemonade_Made_with_freshly_squeezed_lemons_a_1.jpg",
+      img2: "https://cdn.leonardo.ai/users/7b7a656f-66d8-473a-a98a-350631dc318a/generations/c4a5dbac-9b51-467d-89fb-99db71495bb3/RPG_v5_Refreshing_Lemonade_Made_with_freshly_squeezed_lemons_a_2.jpg",
+      img3: "https://cdn.leonardo.ai/users/7b7a656f-66d8-473a-a98a-350631dc318a/generations/c4a5dbac-9b51-467d-89fb-99db71495bb3/RPG_v5_Refreshing_Lemonade_Made_with_freshly_squeezed_lemons_a_0.jpg",
+      img4: "https://cdn.leonardo.ai/users/7b7a656f-66d8-473a-a98a-350631dc318a/generations/c4a5dbac-9b51-467d-89fb-99db71495bb3/RPG_v5_Refreshing_Lemonade_Made_with_freshly_squeezed_lemons_a_1.jpg?w=512",
     },
   },
   {
@@ -101,12 +101,12 @@ const DishAPI = [
       data3: "Flavorful Fusion: A fusion of grilled perfection and BBQ tang.",
       data4: "On-the-Go Feast: A meal that fits your busy lifestyle.",
     },
-    thumbnail: "wraps_thumbnail.jpg",
+    thumbnail: "https://cdn.leonardo.ai/users/7b7a656f-66d8-473a-a98a-350631dc318a/generations/352fe0ea-400a-4a6c-8b96-2928cc60e99b/RPG_v5_BBQ_Grilled_Wrapreal_image_show_full_plate_realistic_im_1.jpg",
     image: {
-      img1: "wraps_img1.jpg",
-      img2: "wraps_img2.jpg",
-      img3: "wraps_img3.jpg",
-      img4: "wraps_img4.jpg",
+      img1: "https://cdn.leonardo.ai/users/7b7a656f-66d8-473a-a98a-350631dc318a/generations/352fe0ea-400a-4a6c-8b96-2928cc60e99b/RPG_v5_BBQ_Grilled_Wrapreal_image_show_full_plate_realistic_im_1.jpg",
+      img2: "https://cdn.leonardo.ai/users/7b7a656f-66d8-473a-a98a-350631dc318a/generations/352fe0ea-400a-4a6c-8b96-2928cc60e99b/RPG_v5_BBQ_Grilled_Wrapreal_image_show_full_plate_realistic_im_2.jpg",
+      img3: "https://cdn.leonardo.ai/users/7b7a656f-66d8-473a-a98a-350631dc318a/generations/352fe0ea-400a-4a6c-8b96-2928cc60e99b/RPG_v5_BBQ_Grilled_Wrapreal_image_show_full_plate_realistic_im_3.jpg",
+      img4: "https://cdn.leonardo.ai/users/7b7a656f-66d8-473a-a98a-350631dc318a/generations/352fe0ea-400a-4a6c-8b96-2928cc60e99b/RPG_v5_BBQ_Grilled_Wrapreal_image_show_full_plate_realistic_im_0.jpg",
     },
   },
   {
@@ -124,12 +124,12 @@ const DishAPI = [
       data3: "Tropical Vibes: Close your eyes and feel the island breeze.",
       data4: "Authentic Island Taste: Your ticket to a culinary vacation.",
     },
-    thumbnail: "berbique_thumbnail.jpg",
+    thumbnail: "https://images6.alphacoders.com/761/thumb-1920-761635.jpg",
     image: {
-      img1: "berbique_img1.jpg",
-      img2: "berbique_img2.jpg",
-      img3: "berbique_img3.jpg",
-      img4: "berbique_img4.jpg",
+      img1: "https://wallpaperaccess.com/full/2269580.jpg",
+      img2: "https://wallpaperaccess.com/full/548343.jpg",
+      img3: "https://e1.pxfuel.com/desktop-wallpaper/970/336/desktop-wallpaper-grilled-food-churrasco.jpg",
+      img4: "https://e1.pxfuel.com/desktop-wallpaper/390/260/desktop-wallpaper-food-churrasco.jpg",
     },
   },
   {
@@ -145,7 +145,7 @@ const DishAPI = [
       data3: "Simple Delight: A classic pizza that never goes out of style.",
       data4: "Irresistible Cheesiness: Experience cheese like never before.",
     },
-    thumbnail: "pizza_thumbnail.jpg",
+    thumbnail: "https://c1.wallpaperflare.com/preview/965/993/80/background-baked-cheese-circle.jpg",
     image: {
       img1: "pizza_img1.jpg",
       img2: "pizza_img2.jpg",
@@ -166,7 +166,7 @@ const DishAPI = [
       data3: "Velvety Smoothness: Experience the luxury of chocolate mousse.",
       data4: "Guilt-Free Indulgence: Because everyone deserves chocolate.",
     },
-    thumbnail: "desserts_thumbnail.jpg",
+    thumbnail: "https://img.freepik.com/premium-photo/front-view-delicious-chocolate-milkshake_23-2148549982.jpg",
     image: {
       img1: "desserts_img1.jpg",
       img2: "desserts_img2.jpg",
@@ -189,7 +189,7 @@ const DishAPI = [
       data4:
         "Satisfaction Guaranteed: A salad that fills you up and delights your taste buds.",
     },
-    thumbnail: "salads_thumbnail.jpg",
+    thumbnail: "https://img.freepik.com/premium-photo/greek-salad-bowl-dark-background-healthy-salad-with-feta-cheese-olives-fresh-vegetable-salad-mediterranean-cuisine-copy-space-top-view_131885-2239.jpg",
     image: {
       img1: "salads_img1.jpg",
       img2: "salads_img2.jpg",
@@ -211,7 +211,7 @@ const DishAPI = [
       data3: "Grilled Goodness: Savor the smoky perfection of grilled chicken.",
       data4: "Sandwich Royalty: Our Grilled Chicken Club is fit for a king.",
     },
-    thumbnail: "sandwiches_thumbnail.jpg",
+    thumbnail: "https://img.freepik.com/premium-photo/delicious-food-burger-sandwich-wallpaper-illustration-background-favorite-breakfast-lunch-dinner_327903-117990.jpg",
     image: {
       img1: "sandwiches_img1.jpg",
       img2: "sandwiches_img2.jpg",
@@ -232,7 +232,7 @@ const DishAPI = [
       data3: "Bold and Zesty: The perfect balance of heat and flavor.",
       data4: "Adventurous Bite: For those who crave a spicy experience.",
     },
-    thumbnail: "jalapeno_burger_thumbnail.jpg",
+    thumbnail: "https://mms.businesswire.com/media/20170510005621/en/585964/5/HardeesJalapenoLogo.jpg",
     image: {
       img1: "jalapeno_burger_img1.jpg",
       img2: "jalapeno_burger_img2.jpg",
@@ -255,7 +255,7 @@ const DishAPI = [
       data3: "Topping Delight: Green onions add a fresh and zesty touch.",
       data4: "Share the Joy: A crowd-pleaser that's perfect for sharing.",
     },
-    thumbnail: "loaded_fries_thumbnail.jpg",
+    thumbnail: "https://media.istockphoto.com/id/865939256/photo/spicy-chili-cheese-fries.jpg?s=612x612&w=0&k=20&c=vpUh1eDtuHV2Fl-dvasc_gvzIWlXgfFYZSKqm7br7MY=",
     image: {
       img1: "loaded_fries_img1.jpg",
       img2: "loaded_fries_img2.jpg",
@@ -278,7 +278,7 @@ const DishAPI = [
       data3: "Fruit Fusion: Enjoy the vibrant flavors of tropical fruits.",
       data4: "Summer in a Cup: Refreshing and perfect for sunny days.",
     },
-    thumbnail: "smoothie_thumbnail.jpg",
+    thumbnail: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQTmD5u9rNvLk9Z2Xim1wpl3wYn8Tx_Q9vg8FBf6opqmkQgguQ4bONjYhSqF-9mNVReL2U&usqp=CAU",
     image: {
       img1: "smoothie_img1.jpg",
       img2: "smoothie_img2.jpg",
@@ -303,7 +303,7 @@ const DishAPI = [
         "Flavor Harmony: A marriage of honey's sweetness and mustard's kick.",
       data4: "Memorable Bite: A dish that leaves a lasting impression.",
     },
-    thumbnail: "honey_mustard_chicken_thumbnail.jpg",
+    thumbnail: "https://media.istockphoto.com/id/1098318620/photo/the-concept-of-indian-cuisine-baked-chicken-wings-and-legs-in-honey-mustard-sauce-serving.jpg?s=170667a&w=0&k=20&c=99aKtDzK9tm69fF20A6TwHMeej0-K3yZw1ZeFxHBAAE=",
     image: {
       img1: "honey_mustard_chicken_img1.jpg",
       img2: "honey_mustard_chicken_img2.jpg",
@@ -328,7 +328,7 @@ const DishAPI = [
       data4:
         "Guilty-Free Delight: A dessert that's both delicious and wholesome.",
     },
-    thumbnail: "parfait_thumbnail.jpg",
+    thumbnail: "https://img.freepik.com/premium-photo/berry-bliss-twin-milkshakes-crowned-with-whipped-cream-delight_995470-1584.jpg",
     image: {
       img1: "parfait_img1.jpg",
       img2: "parfait_img2.jpg",
@@ -351,7 +351,7 @@ const DishAPI = [
       data3: "Cheese Harmony: Mozzarella that melts to perfection.",
       data4: "Authentic Flavor: A taste of Italy in every bite.",
     },
-    thumbnail: "margherita_pizza_thumbnail.jpg",
+    thumbnail: "https://e0.pxfuel.com/wallpapers/969/294/desktop-wallpaper-food.jpg",
     image: {
       img1: "margherita_pizza_img1.jpg",
       img2: "margherita_pizza_img2.jpg",
@@ -375,7 +375,7 @@ const DishAPI = [
       data3: "Creamy Indulgence: Luxurious Caesar dressing that's a delight.",
       data4: "Satisfying and Wholesome: A salad that satisfies your cravings.",
     },
-    thumbnail: "grilled_caesar_salad_thumbnail.jpg",
+    thumbnail: "https://media.istockphoto.com/id/1173344012/photo/caesar-salad-vegetable-salad-with-roast-chicken-meat-on-black-stone.jpg?s=612x612&w=0&k=20&c=w83rKLgwvG2a69A2qludvhIBd9WI13fQOgFxzHerplU=",
     image: {
       img1: "grilled_caesar_salad_img1.jpg",
       img2: "grilled_caesar_salad_img2.jpg",
@@ -399,7 +399,7 @@ const DishAPI = [
       data3: "Hummus Harmony: Creamy hummus that ties the flavors together.",
       data4: "Easy and Delicious: A wrap for a quick and satisfying meal.",
     },
-    thumbnail: "veggie_wrap_thumbnail.jpg",
+    thumbnail: "https://i.imgur.com/LV6KNYJ.jpg",
     image: {
       img1: "veggie_wrap_img1.jpg",
       img2: "veggie_wrap_img2.jpg",
@@ -423,7 +423,7 @@ const DishAPI = [
       data4:
         "Feast from the Tropics: A dish that embodies Caribbean hospitality.",
     },
-    thumbnail: "spicy_bbq_ribs_thumbnail.jpg",
+    thumbnail: "https://img.freepik.com/premium-photo/stack-grilled-pork-ribs-bbq-sauce-chopping-board-black-background-top-view_89816-35989.jpg",
     image: {
       img1: "spicy_bbq_ribs_img1.jpg",
       img2: "spicy_bbq_ribs_img2.jpg",
@@ -444,7 +444,7 @@ const DishAPI = [
       data3: "Tangy and Spicy: A combination that's a flavor explosion.",
       data4: "Game Day Classic: The ultimate finger food for gatherings.",
     },
-    thumbnail: "buffalo_wings_thumbnail.jpg",
+    thumbnail: "https://c4.wallpaperflare.com/wallpaper/367/822/458/chicken-wings-fried-food-food-cuisine-wallpaper-preview.jpg",
     image: {
       img1: "buffalo_wings_img1.jpg",
       img2: "buffalo_wings_img2.jpg",
@@ -467,7 +467,7 @@ const DishAPI = [
       data3: "Raspberry Love: A fruity twist that complements the chocolate.",
       data4: "Celebration Must-Have: The perfect cake for any occasion.",
     },
-    thumbnail: "chocolate_cake_thumbnail.jpg",
+    thumbnail: "https://img.freepik.com/premium-photo/tantalizing-closeup-luscious-chocolate-cake-focusing-decadent-layers-moist-crumbs_818261-5940.jpg",
     image: {
       img1: "chocolate_cake_img1.jpg",
       img2: "chocolate_cake_img2.jpg",
@@ -490,7 +490,7 @@ const DishAPI = [
       data3: "Onion Twist: Red onions add a zesty kick.",
       data4: "Savory Bliss: A pizza that's both bold and satisfying.",
     },
-    thumbnail: "bbq_chicken_pizza_thumbnail.jpg",
+    thumbnail: "https://e0.pxfuel.com/wallpapers/211/477/desktop-wallpaper-grill-this-barbecue-chicken-pizza-to-add-extra-smoky-flavor.jpg",
     image: {
       img1: "bbq_chicken_pizza_img1.jpg",
       img2: "bbq_chicken_pizza_img2.jpg",
@@ -515,7 +515,7 @@ const DishAPI = [
       data4:
         "Vibrant and Healthy: A salad that's a feast for the eyes and taste buds.",
     },
-    thumbnail: "greek_salad_thumbnail.jpg",
+    thumbnail: "https://img.freepik.com/premium-photo/plate-greek-salad-dark-wooden-background_185193-39148.jpg",
     image: {
       img1: "greek_salad_img1.jpg",
       img2: "greek_salad_img2.jpg",
@@ -538,7 +538,7 @@ const DishAPI = [
       data3: "Toasted Perfection: Bread that's crispy and golden.",
       data4: "Every Bite Counts: A sandwich that's a satisfying meal.",
     },
-    thumbnail: "club_sandwich_thumbnail.jpg",
+    thumbnail: "https://img.freepik.com/premium-photo/big-club-sandwich-with-ham-bacon-tomato-cucumber-cheese-eggs-herbs-dark-background_2829-754.jpg",
     image: {
       img1: "club_sandwich_img1.jpg",
       img2: "club_sandwich_img2.jpg",
@@ -562,7 +562,7 @@ const DishAPI = [
         "Cool and Crunchy: Lettuce and tomatoes for a refreshing contrast.",
       data4: "Spice Lovers' Choice: For those who crave a bit of heat.",
     },
-    thumbnail: "spicy_chicken_wrap_thumbnail.jpg",
+    thumbnail: "https://img.freepik.com/premium-photo/deliciously-hot-flavorful-grilled-chicken-wrap-roll-with-flying-ingredients-spices_825385-717.jpg",
     image: {
       img1: "spicy_chicken_wrap_img1.jpg",
       img2: "spicy_chicken_wrap_img2.jpg",
@@ -585,7 +585,7 @@ const DishAPI = [
       data3: "Island Comfort: A platter that's a taste of the Caribbean.",
       data4: "Savor Every Bite: A dish that transports you to the tropics.",
     },
-    thumbnail: "jerk_chicken_platter_thumbnail.jpg",
+    thumbnail: "https://media.istockphoto.com/id/1166171000/photo/spicy-grilled-jerk-chicken-on-a-plate.jpg?s=612x612&w=0&k=20&c=60loR0FJZuwp-IkhnlzHd52GMF9F8n5UF6hE6LAMvYY=",
     image: {
       img1: "jerk_chicken_platter_img1.jpg",
       img2: "jerk_chicken_platter_img2.jpg",
@@ -608,7 +608,7 @@ const DishAPI = [
       data3: "Ranch Delight: Tangy ranch dressing that complements every bite.",
       data4: "Shareable Indulgence: A plate to enjoy with friends and family.",
     },
-    thumbnail: "loaded_cheese_fries_thumbnail.jpg",
+    thumbnail: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSV5GrS-YX5CvkX58rwxFPqB83BS7U5k8iWVwvpiMk9s22UEBwZuszx6tBpBRsp4cyjSrs&usqp=CAU",
     image: {
       img1: "loaded_cheese_fries_img1.jpg",
       img2: "loaded_cheese_fries_img2.jpg",
@@ -631,7 +631,7 @@ const DishAPI = [
       data3: "Citrus Twist: Lime adds a zesty kick to the smoothie.",
       data4: "Refreshing Sip: The perfect choice to beat the heat.",
     },
-    thumbnail: "tropical_fruit_smoothie_thumbnail.jpg",
+    thumbnail: "https://img.freepik.com/premium-photo/mango-margarita-glass-with-sliced-fresh-mango-fruit-wooden-table-turquoise-background-creamy-tropical-drink-dark-background-mango-smoothie-banner-with-copy-space-ai_756498-1434.jpg",
     image: {
       img1: "tropical_fruit_smoothie_img1.jpg",
       img2: "tropical_fruit_smoothie_img2.jpg",
@@ -640,7 +640,7 @@ const DishAPI = [
     },
   },
 
-  // Burgers category
+ 
   {
     id: 30,
     title: "Mushroom Swiss Burger",
@@ -654,7 +654,7 @@ const DishAPI = [
       data3: "Beefy Indulgence: A juicy patty that's a burger lover's dream.",
       data4: "Satisfying Delight: A burger that's both classic and gourmet.",
     },
-    thumbnail: "mushroom_swiss_burger_thumbnail.jpg",
+    thumbnail: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSjGLhokrZE3OW2T62MLWfkRB3zwICYOrtb1GpHeyC7aLDKVZWp54ZAshaiyeEleCCFDYw&usqp=CAU",
     image: {
       img1: "mushroom_swiss_burger_img1.jpg",
       img2: "mushroom_swiss_burger_img2.jpg",
@@ -676,7 +676,7 @@ const DishAPI = [
       data3: "Seafood Sensation: Shrimp that's tender and full of taste.",
       data4: "Rice Harmony: Aromatic rice to complement the curry's richness.",
     },
-    thumbnail: "coconut_curry_shrimp_thumbnail.jpg",
+    thumbnail: "https://e0.pxfuel.com/wallpapers/94/383/desktop-wallpaper-shrimp-sea-food-prawn-thumbnail.jpg",
     image: {
       img1: "coconut_curry_shrimp_img1.jpg",
       img2: "coconut_curry_shrimp_img2.jpg",
@@ -685,7 +685,7 @@ const DishAPI = [
     },
   },
 
-  // Burgers category
+  
   {
     id: 32,
     title: "Double Bacon Cheeseburger",
@@ -920,7 +920,7 @@ const DishAPI = [
     },
   },
 
-  // Burgers category
+ 
   {
     id: 42,
     title: "Mushroom Swiss Burger",
@@ -1004,7 +1004,7 @@ const DishAPI = [
       data4:
         "Flavor Explosion: A dish that's a fireworks show for your taste buds.",
     },
-    thumbnail: "bbq_glazed_chicken_thumbnail.jpg",
+    thumbnail: "images/bbq_glazed_chicken_thumbnail.jpg",
     image: {
       img1: "bbq_glazed_chicken_img1.jpg",
       img2: "bbq_glazed_chicken_img2.jpg",
@@ -1028,7 +1028,7 @@ const DishAPI = [
         "Cold Harmony: Vanilla ice cream that complements the warmth of the cake.",
       data4: "Dessert Delight: A treat that's both luxurious and comforting.",
     },
-    thumbnail: "chocolate_lava_cake_thumbnail.jpg",
+    thumbnail: "images/chocolate_lava_cake_thumbnail.jpg",
     image: {
       img1: "chocolate_lava_cake_img1.jpg",
       img2: "chocolate_lava_cake_img2.jpg",
@@ -1051,7 +1051,7 @@ const DishAPI = [
       data3: "Cilantro Zing: Fresh cilantro that adds a burst of flavor.",
       data4: "Pizza Party: A pie that's a celebration of tastes.",
     },
-    thumbnail: "bbq_chicken_pizza_thumbnail.jpg",
+    thumbnail: "images/bbq_chicken_pizza_thumbnail.jpg",
     image: {
       img1: "bbq_chicken_pizza_img1.jpg",
       img2: "bbq_chicken_pizza_img2.jpg",
@@ -1074,12 +1074,12 @@ const DishAPI = [
       data3: "Cheesy Elegance: Shaved Parmesan for a rich finish.",
       data4: "Creamy Caesar: Dressing that ties the elements together.",
     },
-    thumbnail: "caesar_salad_thumbnail.jpg",
+    thumbnail: "images/caesar_salad_thumbnail.jpg",
     image: {
-      img1: "caesar_salad_img1.jpg",
-      img2: "caesar_salad_img2.jpg",
-      img3: "caesar_salad_img3.jpg",
-      img4: "caesar_salad_img4.jpg",
+      img1: "images/caesar_salad_img1.jpg",
+      img2: "images/caesar_salad_img2.jpg",
+      img3: "images/caesar_salad_img3.jpg",
+      img4: "images/caesar_salad_img4.jpg",
     },
   },
 

@@ -1,8 +1,11 @@
 import React from "react";
 import MenuCategories from "../API/MenuCategories";
 import { Link } from "react-router-dom";
+import { useProductContext } from "../contexAPI/ProductContex";
 
 export default function MenuList() {
+  const allFilterData = useProductContext();
+
   return (
     <>
       <section className="flat-row flat-tab-menu menu-2">
@@ -10,7 +13,7 @@ export default function MenuList() {
           <div className="row"></div>
           {/*/.row*/}
           <div className="row">
-            <div className="col-md-12 flat-tabs ">
+            <div className="col-md-12 flat-tabs">
               <div className="bg-tabs">
                 <div className="title-section style1 martp-0px">
                   <div className="top-section">
@@ -21,8 +24,10 @@ export default function MenuList() {
                 <ul className="menu-tab">
                   {MenuCategories.map((curElem) => {
                     return (
-                      <li  key={curElem.id}>
-                        <Link >{curElem.title}</Link>
+                      <li key={curElem.id}>
+                        <Link onClick={allFilterData[curElem.click]}>
+                          {curElem.title}
+                        </Link>
                       </li>
                     );
                   })}
@@ -32,244 +37,51 @@ export default function MenuList() {
               <div className="flat-divider d67px" />
               <div className="content-tab">
                 <div className="content-inner">
-                  <div className="col-md-6">
-                    <ul className="menu-fd">
-                      <li>
-                        <div className="media-wrap flat-hover-moveright">
-                          <a href="#" className="pull-left">
-                            <img
-                              src="images/1.png"
-                              alt="client"
-                              className="img-responsive"
-                            />
-                          </a>
-                          <div className="media-body">
-                            <h6>
-                              <a href="#">ITALIAN SOURCE MUSHROOM</a>
-                            </h6>
-                            <div className="dotted-bg" />
-                            <span>$19.9</span>
+                  <div className="row">
+                    {allFilterData.filterCategory.map((curElem) => {
+                      const { id, title, thumbnail, price } = curElem;
+                      return (
+                        <>
+                          <div className="col-sm-3 col-xs-6" key={id}>
+                            <div className="product card1 effect1">
+                              <div className="box-wrap">
+                                <div
+                                  className="box-image"
+                                  style={{
+                                    backgroundImage: `url(${thumbnail})`,
+                                    backgroundSize: "cover",
+                                    backgroundPosition: "center",
+                                    height: "300px",
+                                    width: "300px",
+                                    transition: "transform 0.3s ease",
+                                    cursor: "pointer"
+                                  }}
+                                 
+                                >
+                                  <Link>
+                                    {/* <img src={thumbnail} height={300} width={300} alt="images" /> */}
+                                  </Link>
+                                </div>
+                                <div className="box-content">
+                                  <h6>{title}</h6>
+                                  <ul>
+                                    <li>₹ {price}</li>
+                                    <li>
+                                      <i className="fa fa-heart" />
+                                      <i className="fa fa-heart" />
+                                      <i className="fa fa-heart" />
+                                      <i className="fa fa-heart" />
+                                      <i className="fa fa-heart" />
+                                    </li>
+                                  </ul>
+                                </div>
+                              </div>
+                            </div>
                           </div>
-                          <ul className="menu-in">
-                            <li>Mushroom</li>
-                            <li>Garlic</li>
-                            <li>Veggies</li>
-                          </ul>
-                        </div>
-                      </li>
-                      <li>
-                        <div className="media-wrap flat-hover-moveright">
-                          <a href="#" className="pull-left">
-                            <img
-                              src="images/2.png"
-                              alt="client"
-                              className="img-responsive"
-                            />
-                          </a>
-                          <div className="media-body">
-                            <h6>
-                              <a href="#">TUNA ROAST SOURCE</a>
-                            </h6>
-                            <div className="dotted-bg" />
-                            <span>$19.9</span>
-                          </div>
-                          <ul className="menu-in">
-                            <li>Tuna</li>
-                            <li>Potatoes</li>
-                            <li>Rice</li>
-                          </ul>
-                        </div>
-                      </li>
-                      <li>
-                        <div className="media-wrap flat-hover-moveright">
-                          <a href="#" className="pull-left">
-                            <img
-                              src="images/3.png"
-                              alt="client"
-                              className="img-responsive"
-                            />
-                          </a>
-                          <div className="media-body">
-                            <h6>
-                              <a href="#">FRIED POTATOES WITH GARLIC</a>
-                            </h6>
-                            <div className="dotted-bg" />
-                            <span>$19.9</span>
-                          </div>
-                          <ul className="menu-in">
-                            <li>Potatoes</li>
-                            <li>Olive Oil</li>
-                            <li>Garlic</li>
-                          </ul>
-                        </div>
-                      </li>
-                      <li>
-                        <div className="media-wrap flat-hover-moveright">
-                          <a href="#" className="pull-left">
-                            <img
-                              src="images/4.png"
-                              alt="client"
-                              className="img-responsive"
-                            />
-                          </a>
-                          <div className="media-body">
-                            <h6>
-                              <a href="#">ROAST PORK (4 STICKS)</a>
-                            </h6>
-                            <div className="dotted-bg" />
-                            <span>$19.9</span>
-                          </div>
-                          <ul className="menu-in">
-                            <li>Pork</li>
-                            <li>Veggies</li>
-                            <li>Shoyu</li>
-                          </ul>
-                        </div>
-                      </li>
-                      <li>
-                        <div className="media-wrap flat-hover-moveright">
-                          <a href="#" className="pull-left">
-                            <img
-                              src="images/5.png"
-                              alt="client"
-                              className="img-responsive"
-                            />
-                          </a>
-                          <div className="media-body">
-                            <h6>
-                              <a href="#">SALTED FRIED CHICKEN</a>
-                            </h6>
-                            <span>$19.9</span>
-                          </div>
-                          <ul className="menu-in">
-                            <li>Chicken</li>
-                            <li>Olive Oil</li>
-                            <li>Salt</li>
-                          </ul>
-                        </div>
-                      </li>
-                    </ul>
+                        </>
+                      );
+                    })}
                   </div>
-                  {/* /.col-md-6" */}
-                  <div className="col-md-6">
-                    <ul className="menu-fd">
-                      <li>
-                        <div className="media-wrap flat-hover-moveright">
-                          <a href="#" className="pull-left">
-                            <img
-                              src="images/6.png"
-                              alt="client"
-                              className="img-responsive"
-                            />
-                          </a>
-                          <div className="media-body">
-                            <h6>
-                              <a href="#">CRAB WITH CURRY SOURCES</a>
-                            </h6>
-                            <div className="dotted-bg" />
-                            <span>$19.9</span>
-                          </div>
-                          <ul className="menu-in">
-                            <li>Crab</li>
-                            <li>Potatoes</li>
-                            <li>Veggies</li>
-                          </ul>
-                        </div>
-                      </li>
-                      <li>
-                        <div className="media-wrap flat-hover-moveright">
-                          <a href="#" className="pull-left">
-                            <img
-                              src="images/7.png"
-                              alt="client"
-                              className="img-responsive"
-                            />
-                          </a>
-                          <div className="media-body">
-                            <h6>
-                              <a href="#">IMPORTED SALMON STEAK</a>
-                            </h6>
-                            <div className="dotted-bg" />
-                            <span>$19.9</span>
-                          </div>
-                          <ul className="menu-in">
-                            <li>Salmon</li>
-                            <li>Veggies</li>
-                            <li>Oil</li>
-                          </ul>
-                        </div>
-                      </li>
-                      <li>
-                        <div className="media-wrap flat-hover-moveright">
-                          <a href="#" className="pull-left">
-                            <img
-                              src="images/8.png"
-                              alt="client"
-                              className="img-responsive"
-                            />
-                          </a>
-                          <div className="media-body">
-                            <h6>
-                              <a href="#">BAKED POTATO PIZZA</a>
-                            </h6>
-                            <div className="dotted-bg" />
-                            <span>$19.9</span>
-                          </div>
-                          <ul className="menu-in">
-                            <li>Potato</li>
-                            <li>Bread</li>
-                            <li>Cheese</li>
-                          </ul>
-                        </div>
-                      </li>
-                      <li>
-                        <div className="media-wrap flat-hover-moveright">
-                          <a href="#" className="pull-left">
-                            <img
-                              src="images/9.png"
-                              alt="client"
-                              className="img-responsive"
-                            />
-                          </a>
-                          <div className="media-body">
-                            <h6>
-                              <a href="#">PORK WITH ITALIAN SALSA VERDE</a>
-                            </h6>
-                            <div className="dotted-bg" />
-                            <span>$19.9</span>
-                          </div>
-                          <ul className="menu-in">
-                            <li>Pork</li>
-                            <li>Tomatoes</li>
-                            <li>Veggies</li>
-                          </ul>
-                        </div>
-                      </li>
-                      <li>
-                        <div className="media-wrap flat-hover-moveright">
-                          <a href="#" className="pull-left">
-                            <img
-                              src="images/10.png"
-                              alt="client"
-                              className="img-responsive"
-                            />
-                          </a>
-                          <div className="media-body">
-                            <h6>
-                              <a href="#">FRESH CRAB WITH LEMON</a>
-                            </h6>
-                            <span>$19.9</span>
-                          </div>
-                          <ul className="menu-in">
-                            <li>Crab</li>
-                            <li>Lemon</li>
-                            <li>Garlic</li>
-                          </ul>
-                        </div>
-                      </li>
-                    </ul>
-                  </div>
-                  {/* /.col-md-6" */}
                 </div>
               </div>
               {/* /.content-tab */}
