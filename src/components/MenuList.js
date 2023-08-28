@@ -48,18 +48,16 @@ export default function MenuList() {
                                 <div
                                   className="box-image"
                                   style={{
-                                    backgroundImage: `url(${thumbnail})`,
-                                    backgroundSize: "cover",
-                                    backgroundPosition: "center",
-                                    height: "300px",
-                                    width: "300px",
+                                   
+                                    height: "250px",
+                                  
                                     transition: "transform 0.3s ease",
                                     cursor: "pointer"
                                   }}
                                  
                                 >
                                   <Link>
-                                    {/* <img src={thumbnail} height={300} width={300} alt="images" /> */}
+                                    <img src={thumbnail} style={{ width: "100%", height: "100%", objectFit: "cover" }}   alt="images" />
                                   </Link>
                                 </div>
                                 <div className="box-content">
