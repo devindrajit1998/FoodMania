@@ -1,4 +1,6 @@
 import React from "react";
+import MenuCategories from "../API/MenuCategories";
+import { Link } from "react-router-dom";
 
 export default function MenuList() {
   return (
@@ -17,24 +19,13 @@ export default function MenuList() {
                   <h1 className="title marbt-33px ">Our Menu</h1>
                 </div>
                 <ul className="menu-tab">
-                  <li className="active">
-                    <a href="#">Starters</a>
-                  </li>
-                  <li>
-                    <a href="#">Dishes </a>
-                  </li>
-                  <li>
-                    <a href="#">Deserts </a>
-                  </li>
-                  <li>
-                    <a href="#">Fastfood</a>
-                  </li>
-                  <li>
-                    <a href="#">Coffer</a>
-                  </li>
-                  <li>
-                    <a href="#">Drinks </a>
-                  </li>
+                  {MenuCategories.map((curElem) => {
+                    return (
+                      <li  key={curElem.id}>
+                        <Link >{curElem.title}</Link>
+                      </li>
+                    );
+                  })}
                 </ul>
               </div>
               {/*/.bg-tabs*/}
