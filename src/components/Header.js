@@ -6,33 +6,23 @@ export default function Header() {
     {
       id: 1,
       link: "Home",
-      url: "",
+      url: "/",
     },
     {
       id: 2,
-      link: "Menu",
-      url: "",
-    },
-    {
-      id: 3,
       link: "Reservation",
       url: "",
     },
   ];
   const rightNavLink = [
     {
-      id: 4,
+      id: 3,
       link: "About Us",
       url: "",
     },
     {
-      id: 5,
+      id: 4,
       link: "Contact Us",
-      url: "",
-    },
-    {
-      id: 6,
-      link: "My Cart",
       url: "",
     },
   ];
@@ -54,14 +44,14 @@ export default function Header() {
                 {leftNavLink.map((curElem) => {
                   return (
                     <li className="has-sub" key={curElem.id}>
-                      <NavLink>{curElem.link}</NavLink>
+                      <NavLink to={curElem.url}>{curElem.link}</NavLink>
                     </li>
                   );
                 })}
 
                 <li className="logo">
                   <Link>
-                    <img src="images/logo.png" alt="logo" />
+                    <img src="/images/logo.png" alt="logo" />
                   </Link>
                 </li>
                 {rightNavLink.map((curElem) => {

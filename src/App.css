@@ -41,3 +41,9 @@ body{
 .me-3:hover{
   color: #e44c2a;;
 }
+.content-tab{
+  overflow-x: hidden;
+  overflow-y: scroll;
+  max-height: 750px;
+  padding: 20px !important;
+}

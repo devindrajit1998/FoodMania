@@ -12,6 +12,7 @@ const ProductContex = createContext();
 
 const ProductProvider = ({ children }) => {
   const productData = DishAPI;
+
   const initialStage = {
     showBurgers: [],
     showFries: [],
@@ -26,11 +27,8 @@ const ProductProvider = ({ children }) => {
   };
   const [state, dispatch] = useReducer(reducer, initialStage);
 
-  const [filterCategory, setFilterCategory] = useState([]);
-
-  // const getfilterData = () => {
-  //   dispatch({ type: "FRI_FILTER", payload: productData });
-  // };
+  const [filterCategory, setFilterCategory] = useState(productData);
+  console.log(filterCategory);
 
   // filter functions
   useEffect(() => {
@@ -45,12 +43,14 @@ const ProductProvider = ({ children }) => {
     dispatch({ type: "WRAP_FILTER", payload: productData });
     dispatch({ type: "BARBIQUE_FILTER", payload: productData });
   }, []);
+
+  const showAll = () =>{
+    setFilterCategory(productData)
+  }
+
   const filterBurger = () => {
     setFilterCategory(state.showBurgers);
   };
-  // useEffect(() => {
-  //   filterBurger();
-  // }, []);
   const filterFri = () => {
     setFilterCategory(state.showFries);
   };
@@ -79,10 +79,15 @@ const ProductProvider = ({ children }) => {
     setFilterCategory(state.showBarbique);
   };
 
+  // useEffect(() => {
+  //   setFilterCategory(state.showBurgers);
+  // }, []);
+
   return (
     <ProductContex.Provider
       value={{
         productData,
+        showAll,
         filterBurger,
         filterFri,
         filterDrinks,

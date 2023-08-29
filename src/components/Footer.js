@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 export default function Footer() {
   return (
@@ -193,13 +194,13 @@ export default function Footer() {
                   <div className="copyright">
                     <div className="copyright-content">
                       Copyright © 2023. Designer by
-                      <a href="themesflat.com"> Indrajit</a>. All Rights Reserved
+                      <Link> Indrajit</Link>. All Rights Reserved
                     </div>
                   </div>
                   {/* Go Top */}
-                  <a className="go-top-v1">
+                  <Link className="go-top-v1" >
                     <i className="fa fa-arrow-up" /> &nbsp;Back to Top
-                  </a>
+                  </Link>
                 </div>
                 {/* /.col-md-12 */}
               </div>

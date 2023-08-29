@@ -36,8 +36,7 @@ export default function HotMenu() {
                           <ul>
                             <li>₹ {curElem.price}</li>
                             <li>
-                              <i class="fa-brands fa-opencart ms-3"/>
-                              <i class="fa-solid fa-eye ms-3"/>
+                            
                             </li>
                           </ul>
                         </div>
