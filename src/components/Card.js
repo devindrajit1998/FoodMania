@@ -2,7 +2,7 @@ import React from "react";
 import { useProductContext } from "../contexAPI/ProductContex";
 import { Link, NavLink } from "react-router-dom";
 
-export default function Card({id}) {
+export default function Card() {
   const filterCard = useProductContext();
   return (
     <>
@@ -22,7 +22,7 @@ export default function Card({id}) {
                       cursor: "pointer",
                     }}
                   >
-                    <Link>
+                    <Link to={`/pages/SingleProduct/SingleProduct/${id}`}>
                       <img
                         src={thumbnail}
                         style={{

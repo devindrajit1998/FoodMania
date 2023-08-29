@@ -2,7 +2,6 @@ import React from "react";
 import { useParams } from "react-router-dom";
 import { useProductContext } from "../../../contexAPI/ProductContex";
 
-
 export default function AboutProduct() {
   const mainData = useProductContext();
   const { id } = useParams();
@@ -10,7 +9,11 @@ export default function AboutProduct() {
     return curElem.id === parseInt(id);
   });
   const finalData = filterSingleId[0];
-  const { title,category,price,description,details,thumbnail, image } = finalData;
+  const { title, category, price, description, details, thumbnail, image } =
+    finalData;
+  if (!finalData) {
+    return <p>Loading...</p>;
+  }
 
   return (
     <>
@@ -19,7 +22,7 @@ export default function AboutProduct() {
           <div className="row">
             <div className="woocommerce-page clearfix">
               <div className="col-md-6">
-                <div className="flat-product-single-slider">
+                <div className="flat-product-single-slider" key={id}>
                   <div id="flat-product-flexslider">
                     <div
                       className="flex-viewport"
@@ -46,181 +49,13 @@ export default function AboutProduct() {
                             width={570}
                             height={570}
                             alt="product-single"
-                            src="images/shop/1.jpg"
-                            className="attachment-themesflat-gallery-product size-themesflat-gallery-product"
-                            draggable="false"
-                          />
-                        </li>
-                        <li
-                          style={{
-                            width: 570,
-                            marginRight: 0,
-                            float: "left",
-                            display: "block",
-                          }}
-                        >
-                          <img
-                            width={570}
-                            height={570}
-                            alt="product-single"
-                            src="images/shop/5.jpg"
-                            className="attachment-themesflat-gallery-product size-themesflat-gallery-product"
-                            draggable="false"
-                          />
-                        </li>
-                        <li
-                          style={{
-                            width: 570,
-                            marginRight: 0,
-                            float: "left",
-                            display: "block",
-                          }}
-                        >
-                          <img
-                            width={570}
-                            height={570}
-                            alt="product-single"
-                            src="images/shop/6.jpg"
-                            className="attachment-themesflat-gallery-product size-themesflat-gallery-product"
-                            draggable="false"
-                          />
-                        </li>
-                        <li
-                          style={{
-                            width: 570,
-                            marginRight: 0,
-                            float: "left",
-                            display: "block",
-                          }}
-                        >
-                          <img
-                            width={570}
-                            height={570}
-                            alt="product-single"
-                            src="images/shop/7.jpg"
+                            src={thumbnail}
                             className="attachment-themesflat-gallery-product size-themesflat-gallery-product"
                             draggable="false"
                           />
                         </li>
                       </ul>
                     </div>
-                    <ul className="flex-direction-nav">
-                      <li className="flex-nav-prev">
-                        <a
-                          className="flex-prev flex-disabled"
-                          href="#"
-                          tabIndex={-1}
-                        >
-                          <i className="fa fa-angle-left" />
-                        </a>
-                      </li>
-                      <li className="flex-nav-next">
-                        <a className="flex-next" href="#">
-                          <i className="fa fa-angle-right" />
-                        </a>
-                      </li>
-                    </ul>
-                  </div>
-                  <div id="flat-product-carousel">
-                    <div
-                      className="flex-viewport"
-                      style={{ overflow: "hidden", position: "relative" }}
-                    >
-                      <ul
-                        className="slides"
-                        style={{
-                          width: "800%",
-                          transitionDuration: "0s",
-                          transform: "translate3d(0px, 0px, 0px)",
-                        }}
-                      >
-                        <li
-                          className="flex-active-slide"
-                          style={{
-                            width: 100,
-                            marginRight: 10,
-                            float: "left",
-                            display: "block",
-                          }}
-                        >
-                          <img
-                            width={100}
-                            height={100}
-                            alt="product-single"
-                            src="images/shop/1.jpg"
-                            draggable="false"
-                          />
-                        </li>
-                        <li
-                          style={{
-                            width: 100,
-                            marginRight: 10,
-                            float: "left",
-                            display: "block",
-                          }}
-                        >
-                          <img
-                            width={100}
-                            height={100}
-                            alt="product-single"
-                            src="images/shop/5.jpg"
-                            draggable="false"
-                          />
-                        </li>
-                        <li
-                          style={{
-                            width: 100,
-                            marginRight: 10,
-                            float: "left",
-                            display: "block",
-                          }}
-                        >
-                          <img
-                            width={100}
-                            height={100}
-                            alt="product-single"
-                            src="images/shop/6.jpg"
-                            draggable="false"
-                          />
-                        </li>
-                        <li
-                          style={{
-                            width: 100,
-                            marginRight: 10,
-                            float: "left",
-                            display: "block",
-                          }}
-                        >
-                          <img
-                            width={100}
-                            height={100}
-                            alt="product-single"
-                            src="images/shop/7.jpg"
-                            draggable="false"
-                          />
-                        </li>
-                      </ul>
-                    </div>
-                    <ul className="flex-direction-nav">
-                      <li className="flex-nav-prev">
-                        <a
-                          className="flex-prev flex-disabled"
-                          href="#"
-                          tabIndex={-1}
-                        >
-                          <i className="fa fa-angle-left" />
-                        </a>
-                      </li>
-                      <li className="flex-nav-next">
-                        <a
-                          className="flex-next flex-disabled"
-                          href="#"
-                          tabIndex={-1}
-                        >
-                          <i className="fa fa-angle-right" />
-                        </a>
-                      </li>
-                    </ul>
                   </div>
                 </div>
                 {/* /.flat-portfolio-single-slider */}
@@ -240,9 +75,7 @@ export default function AboutProduct() {
                   </ul>
                   <p className="price">₹ {price}</p>
                   <div className="description">
-                    <p>
-                    {description}
-                    </p>
+                    <p>{description}</p>
                   </div>
                   <ul className="iconlist">
                     <li>
