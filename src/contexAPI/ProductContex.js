@@ -28,7 +28,7 @@ const ProductProvider = ({ children }) => {
   const [state, dispatch] = useReducer(reducer, initialStage);
 
   const [filterCategory, setFilterCategory] = useState(productData);
-  console.log(filterCategory);
+ 
 
   // filter functions
   useEffect(() => {

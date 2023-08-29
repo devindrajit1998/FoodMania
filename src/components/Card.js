@@ -1,8 +1,8 @@
 import React from "react";
 import { useProductContext } from "../contexAPI/ProductContex";
-import { Link } from "react-router-dom";
+import { Link, NavLink } from "react-router-dom";
 
-export default function Card() {
+export default function Card({id}) {
   const filterCard = useProductContext();
   return (
     <>
@@ -35,7 +35,9 @@ export default function Card() {
                     </Link>
                   </div>
                   <div className="box-content">
-                    <h6>{title}</h6>
+                    <NavLink to={`/pages/SingleProduct/SingleProduct/${id}`}>
+                      {title}
+                    </NavLink>
                     <ul>
                       <li>₹ {price}</li>
                       <li>

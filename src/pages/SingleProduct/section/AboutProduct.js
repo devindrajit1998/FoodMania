@@ -1,8 +1,16 @@
 import React from "react";
 import { useParams } from "react-router-dom";
+import { useProductContext } from "../../../contexAPI/ProductContex";
+
 
 export default function AboutProduct() {
-const {id} = useParams();
+  const mainData = useProductContext();
+  const { id } = useParams();
+  const filterSingleId = mainData.filterCategory.filter((curElem) => {
+    return curElem.id === parseInt(id);
+  });
+  const finalData = filterSingleId[0];
+  const { title,category,price,description,details,thumbnail, image } = finalData;
 
   return (
     <>
@@ -220,7 +228,7 @@ const {id} = useParams();
               {/*/.col-md-6 */}
               <div className="col-md-6">
                 <div className="entry-summary">
-                  <h2 className="product_title">ITALIAN SOURCE MUSHROOM</h2>
+                  <h2 className="product_title">{title}</h2>
                   <ul className="favorite">
                     <li>
                       <i className="fa fa-heart" />
@@ -230,29 +238,24 @@ const {id} = useParams();
                       <i className="fa fa-heart" />
                     </li>
                   </ul>
-                  <p className="price">$19.9</p>
+                  <p className="price">₹ {price}</p>
                   <div className="description">
                     <p>
-                      Sumi is a restaurant, bar and coffee roastery located on a
-                      busy corner site in Farringdon's Exmouth Market. With
-                      glazed frontage on two sides of the building, overlooking
-                      the market and a bustling.
+                    {description}
                     </p>
                   </div>
                   <ul className="iconlist">
                     <li>
-                      <i className="fa fa-circle-o" /> 4 thick - cut pork chops,
-                      1 tablespoon dried basil{" "}
+                      <i className="fa fa-circle-o" /> {details.data1}
                     </li>
                     <li>
-                      <i className="fa fa-circle-o" /> 1teaspoon montreal steak{" "}
+                      <i className="fa fa-circle-o" /> {details.data2}
                     </li>
                     <li>
-                      <i className="fa fa-circle-o" /> 1/2 cup butter, divided{" "}
+                      <i className="fa fa-circle-o" /> {details.data3}
                     </li>
                     <li>
-                      <i className="fa fa-circle-o" /> 2 cups mil, 1 teaspoon
-                      freshly ground{" "}
+                      <i className="fa fa-circle-o" /> {details.data4}
                     </li>
                   </ul>
                   <form className="cart clearfix" method="post">
